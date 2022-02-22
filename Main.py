@@ -1,6 +1,6 @@
 import time
 x = 0
 while True:
-  time.wait(10)
+  time.sleep(10)
   print(x)
   x += 1
